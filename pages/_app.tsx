@@ -4,6 +4,7 @@ import { MDXProvider } from "@mdx-js/react";
 import { CodeBlock } from "../components/CodeBlock";
 import { Layout } from "../components/Layout";
 import "../styles/globals.css";
+import Meta from "../components/Meta";
 
 const { Column } = Flexbox;
 
@@ -19,6 +20,11 @@ const components = {
 
 export default ({ Component, pageProps }) => (
   <Layout>
+    <Meta
+      title="W-Design"
+      description="A React UI toolkit library is built with typescript"
+      canonical="https://design.we-mak.com"
+    ></Meta>
     <MDXProvider components={components}>
       <Component {...pageProps} />
     </MDXProvider>
