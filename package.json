@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "w-design-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,8 +12,8 @@
     "@next/mdx": "^10.0.2",
     "@w-design/core": "^0.46.2",
     "@w-design/form": "^0.46.0",
-    "@w-design/helpers": "^0.41.4",
-    "@w-design/hooks": "^0.42.0",
+    "@w-design/helpers": "0.46.1",
+    "@w-design/hooks": "0.46.1",
     "@w-design/upload": "^0.46.2",
     "next": "^10.0.2",
     "prism-react-renderer": "^1.1.1",
