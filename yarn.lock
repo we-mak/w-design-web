@@ -604,7 +604,7 @@
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
   integrity sha512-FvUupuM3rlRsRtCN+fDudtmytGO6iHJuuRKS1Ss0pG5z8oX0diNEw94UEL7hgDbpN94rgaK5R7sWm6RrSkZuAQ==
 
-"@w-design/core@^0.46.2", "@w-design/core@^0.46.3":
+"@w-design/core@0.46.3", "@w-design/core@^0.46.3":
   version "0.46.3"
   resolved "https://registry.yarnpkg.com/@w-design/core/-/core-0.46.3.tgz#18dc0d1dc519b847a3a5ebaf896367316e423629"
   integrity sha512-OGMrKW4DgsItVeXxCfQlnHozBCN3ujGmJtOx/vYMrnmp9Y+CRZC2meUZQjeVo8CbIO2Aeyg5Il/XsVJLCuvjAw==
@@ -616,7 +616,7 @@
     body-scroll-lock latest
     styled-system latest
 
-"@w-design/form@^0.46.0":
+"@w-design/form@0.46.1":
   version "0.46.1"
   resolved "https://registry.yarnpkg.com/@w-design/form/-/form-0.46.1.tgz#28be872f491b2e96d4302666493cea32e3e4bf86"
   integrity sha512-s+3+RSXjDnCLjlCzMmNzcWzYit0odTod5K3IcZQTWRNTxqv1wxTc4GJpSfj54Ewq2dPAaIpPjpPzmrh6lchCvg==
@@ -624,31 +624,19 @@
     "@w-design/core" "^0.46.3"
     "@w-design/helpers" "^0.46.2"
 
-"@w-design/helpers@0.46.1":
-  version "0.46.1"
-  resolved "https://registry.yarnpkg.com/@w-design/helpers/-/helpers-0.46.1.tgz#c09f6d3564fae0c81d09a6aeb247dd422aee0c70"
-  integrity sha512-xhM2DRYb86/9VRsETcsK70lNNS1sxnZRUB8VjjN1oH1JfEbNtaaG0h3isMUEzmEsKX7ouxKAfuDWg5VV7u6xqQ==
-
-"@w-design/helpers@^0.41.5", "@w-design/helpers@^0.46.2":
+"@w-design/helpers@0.46.2", "@w-design/helpers@^0.46.2":
   version "0.46.2"
   resolved "https://registry.yarnpkg.com/@w-design/helpers/-/helpers-0.46.2.tgz#e7c48c93b53b9cc65199ce6b5071d5f3e440c8c4"
   integrity sha512-Uh5n7fnYKBjiYNTTUGLvmrZ5UgHtgGIgjqcbUO4QN45M0SSdKamux8/0q73bxteFiFksRgGLkagg0C9hakeSww==
 
-"@w-design/hooks@0.46.1":
-  version "0.46.1"
-  resolved "https://registry.yarnpkg.com/@w-design/hooks/-/hooks-0.46.1.tgz#97636dfe7306508ffdc9f4e10bc4114efc1eeed7"
-  integrity sha512-klSwacj+ugWGVdPD6MMtqlNOb9f9b8XT3S5PrsDL9CtymC0hKzLx4J8Nr1xmhMmwbIJ9VhHHFqXrsclGY4F4Jw==
-  dependencies:
-    "@w-design/helpers" "^0.41.5"
-
-"@w-design/hooks@^0.46.2":
+"@w-design/hooks@0.46.2", "@w-design/hooks@^0.46.2":
   version "0.46.2"
   resolved "https://registry.yarnpkg.com/@w-design/hooks/-/hooks-0.46.2.tgz#c499d5eb3c53af9bde36b5480c08b42a101973cf"
   integrity sha512-4nWc/1fgq/YkBO+vBx+G7mGbC32tfZ6Oj5juYyiDPj5nAEFJZhC3JlSeSFY89fXwGERcPkpjRroK+A/8l9YClQ==
   dependencies:
     "@w-design/helpers" "^0.46.2"
 
-"@w-design/upload@^0.46.2":
+"@w-design/upload@^0.46.3":
   version "0.46.3"
   resolved "https://registry.yarnpkg.com/@w-design/upload/-/upload-0.46.3.tgz#f9cf8de8d9e7f4d9100b3f77cf3fae9bc83205f0"
   integrity sha512-TYRV6jNjzoWSe/kMjg+083S/pvpyww3F/0ePhnApQNdfhiMuijlA3eZF2655tMp7ycEchQsIxZppnb9sYogo6g==
