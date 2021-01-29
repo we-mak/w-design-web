@@ -1,0 +1,32 @@
+import PaginationExample from "../../components/core/PaginationExample";
+
+# Pagination
+
+Pagination is the navigation between multiple pages that split from large data to small chunks.
+
+## Example
+
+<PaginationExample />
+
+```jsx
+<Pagination
+  pages={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+  onChange={(page: number) => {
+    console.log(page);
+  }}
+/>
+```
+
+<br />
+
+<PaginationExample defaultSelectedIndex={2} />
+
+```jsx
+<Pagination
+  pages={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+  defaultSelectedIndex={3}
+  onChange={(page: number) => {
+    console.log(page);
+  }}
+/>
+```

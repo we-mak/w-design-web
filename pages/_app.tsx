@@ -18,15 +18,17 @@ const components = {
   Icon
 };
 
-export default ({ Component, pageProps }) => (
-  <Layout>
-    <Meta
-      title="W-Design"
-      description="A React UI toolkit library is built with typescript"
-      canonical="https://design.we-mak.com"
-    ></Meta>
-    <MDXProvider components={components}>
-      <Component {...pageProps} />
-    </MDXProvider>
-  </Layout>
-);
+export default function App({ Component, pageProps }) {
+  return (
+    <Layout>
+      <Meta
+        title="W-Design"
+        description="A React UI toolkit library is built with typescript"
+        canonical="https://design.we-mak.com"
+      ></Meta>
+      <MDXProvider components={components}>
+        <Component {...pageProps} />
+      </MDXProvider>
+    </Layout>
+  );
+}

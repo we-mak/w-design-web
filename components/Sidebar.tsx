@@ -6,6 +6,10 @@ import { Menu, MenuItem, MenuHeading, SubMenu, Icon } from "@w-design/core";
 
 const core = [
   {
+    title: "Actions",
+    link: "/core/actions"
+  },
+  {
     title: "Anchor Scroll",
     link: "/core/anchor"
   },
@@ -36,6 +40,10 @@ const core = [
   {
     title: "Card",
     link: "/core/card"
+  },
+  {
+    title: "Chip",
+    link: "/core/chip"
   },
   {
     title: "Collapse",
@@ -98,8 +106,16 @@ const core = [
     link: "/core/navbar"
   },
   {
+    title: "Pagination",
+    link: "/core/pagination"
+  },
+  {
     title: "ProgressLoader",
     link: "/core/progress"
+  },
+  {
+    title: "Popover",
+    link: "/core/popover"
   },
   {
     title: "PushMessage",
@@ -112,6 +128,10 @@ const core = [
   {
     title: "Spinner",
     link: "/core/spinner"
+  },
+  {
+    title: "Steps",
+    link: "/core/steps"
   },
   {
     title: "Tabs",
@@ -157,6 +177,10 @@ const form = [
     link: "/form/textarea"
   },
   {
+    title: "Toggle",
+    link: "/form/toggle"
+  },
+  {
     title: "FormGroup",
     link: "/form/formgroup"
   },
@@ -199,7 +223,7 @@ export const Sidebar: React.FunctionComponent<any> = () => {
 
         <MenuHeading>UI Packages</MenuHeading>
         <SubMenu key="core" title="Core components" icon={<Icon className="fas fa-atom" />}>
-          {core.map(el => (
+          {core.map((el) => (
             <MenuItem key={el.link}>
               <Link href={el.link}>
                 <a>{el.title}</a>
@@ -209,7 +233,7 @@ export const Sidebar: React.FunctionComponent<any> = () => {
         </SubMenu>
 
         <SubMenu key="form" title="Form" icon={<Icon className="fas fa-list" />}>
-          {form.map(el => (
+          {form.map((el) => (
             <MenuItem key={el.link}>
               <Link href={el.link}>
                 <a>{el.title}</a>
@@ -231,12 +255,17 @@ export const Sidebar: React.FunctionComponent<any> = () => {
         </MenuItem>
 
         <MenuHeading>Hooks</MenuHeading>
-        <MenuItem key="/clickoutside">
-          <Link href="/clickoutside">
+        <MenuItem key="clickoutside">
+          <Link href="/hooks/clickoutside">
             <a>click outside</a>
           </Link>
         </MenuItem>
-        <MenuHeading>Utilities</MenuHeading>
+
+        <MenuItem key="dragging">
+          <Link href="/hooks/dragging">
+            <a>dragging</a>
+          </Link>
+        </MenuItem>
       </Menu>
     </Wrapper>
   );

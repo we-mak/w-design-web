@@ -1,0 +1,32 @@
+import { Toggle } from "@w-design/form";
+
+# Toggle
+
+Toggle is similar to checkbox but with switch view, use for enable or disable state.
+
+## Example
+
+<Toggle label="Toggle me" />
+
+```jsx
+<Toggle label="Toggle me" />
+```
+
+## API
+
+Toggle API is as same as checkbox
+
+| Props          | type                                               | default | description             |
+| -------------- | -------------------------------------------------- | ------- | ----------------------- |
+| CheckboxRef    | React.MutableRefObject                             |         | checkbox node reference |
+| name           | string                                             |         |                         |
+| defaultChecked | boolean                                            | false   |                         |
+| isChecked      | boolean                                            | false   |                         |
+| isDisabled     | boolean                                            | false   |                         |
+| isRequired     | boolean                                            | false   |                         |
+| label          | string                                             |         |                         |
+| value          | number, string                                     |         |                         |
+| className      | string                                             |         |                         |
+| id             | string                                             |         |                         |
+| onChange       | `(e: React.ChangeEvent<HTMLInputElement>) => void` |         |                         |
+| onInput        | `(e: React.FormEvent<HTMLInputElement>) => void`   |         |                         |

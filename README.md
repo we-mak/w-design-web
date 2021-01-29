@@ -22,3 +22,23 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Docker
+
+Docker automatically builds on Docker hub https://hub.docker.com/r/viiiprock/w-design-web
+
+Deploy with nginx-proxy by docker-compose
+
+```yml
+version: "3.8"
+
+services:
+  w-design:
+    image: viiiprock/w-design-web:latest
+    container_name: w-design
+    expose:
+      - 3000
+    environment:
+      - VIRTUAL_HOST=design.we-mak.com
+    restart: unless-stopped
+```
